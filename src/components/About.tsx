@@ -17,8 +17,8 @@ function About() {
         <h1>About</h1>
         <div className='about-content'>
           <p>👨‍💻 Hi, I'm <strong>Navneet Kumar Singh</strong>, a Software Engineer with over 3 years of experience in software development and cloud technologies.</p>
-          <p>🎓 Currently pursuing my Honours Bachelor of Science in Computer Science at Ontario Tech University, I'm all about building reliable, scalable software that makes a difference.</p>
-          <p>🛠 From full-stack development to cloud-based solutions, I've led enterprise-level projects that streamline operations and deliver real impact.</p>
+          <p>🎓 Currently pursuing my Bachelor of Technology in Computer Science at LIET, I'm all about building reliable, scalable software that makes a difference.</p>
+          <p>🛠 From full-stack development to software development, I've led enterprise-level projects that streamline operations and deliver real impact.</p>
           <p>🔧 I enjoy automating workflows, optimizing systems, and turning complex challenges into real results. 📈</p>
           <p>💡 I'm always curious and constantly learning.</p>
           <p>See my resume and coding profiles.</p>
