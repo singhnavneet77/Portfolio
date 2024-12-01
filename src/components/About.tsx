@@ -16,7 +16,7 @@ function About() {
       <div className='about-container'>
         <h1>About</h1>
         <div className='about-content'>
-          <p>👨‍💻 Hi, I'm <strong>Navneet Kumar Singh</strong>, a Software Engineer with over 3 years of experience in software development and cloud technologies.</p>
+          <p>👨‍💻 Hi, I'm <strong>Navneet Kumar Singh</strong>, a Software Engineer with over 3 years of experience in software development and Full-stack development.</p>
           <p>🎓 Currently pursuing my Bachelor of Technology in Computer Science at LIET, I'm all about building reliable, scalable software that makes a difference.</p>
           <p>🛠 From full-stack development to software development, I've led enterprise-level projects that streamline operations and deliver real impact.</p>
           <p>🔧 I enjoy automating workflows, optimizing systems, and turning complex challenges into real results. 📈</p>
