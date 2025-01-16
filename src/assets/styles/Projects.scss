@@ -1,0 +1,102 @@
+.projects-container {
+    padding: 5% 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    svg {
+        color: white;
+    }
+}
+  
+.projects-container .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+}
+  
+.projects-container .projects-grid .projects {
+    align-items: center;
+    text-align: left;
+}
+  
+.chip {
+    color: rgb(39, 40, 34) !important;
+    background-color: white !important;
+    font-size: 0.8rem !important;
+    height: 25px !important;
+  
+    span {
+        font-family: 'Courier Prime', monospace;
+        color: rgb(39, 40, 34);
+    }
+  
+    svg {
+        height: 15px !important;
+    }
+}
+
+.flex-chips {
+    line-height: 2;
+    margin: 0.5;
+
+    .chip-title {
+        color: white;
+        padding-right: 10px;
+    }
+}
+
+.flex-chips .MuiChip-root {
+    margin-right: 0.5em;
+}
+
+.flex-chips .MuiChip-outlined {
+    background-color: #e0e0e0;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+.flex-chips .MuiChip-outlined span {
+    color: rgb(39, 40, 34);
+}
+
+.git {
+    display: flex;
+    gap: 10px;
+    color: white;
+
+    svg {
+        margin-top:1rem;
+        font-size: 1.8em;
+        transition: transform 0.3s ease, color 0.3s ease;
+
+        &:hover {
+            transform: scale(1.2); 
+            color: #4d5152;
+        }
+    }
+}
+
+
+@media screen {
+    @media (max-width: 768px) {
+        .projects-container {
+            display: block;
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+    
+        .projects-container .projects-grid {
+            display: initial;
+        }
+        
+        .projects-container .projects-grid .projects {
+            padding-bottom: 5%;
+        }
+    }
+
+    @media (max-width: 567px) {
+        .projects {
+            font-size: 12px;
+        }
+    }
+}
